@@ -1,3 +1,10 @@
-p {
-  font-family: Lato;
+.container{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  .animate-block{
+    position: absolute;
+    top:20px;
+    width: 100%;
+  }
 }

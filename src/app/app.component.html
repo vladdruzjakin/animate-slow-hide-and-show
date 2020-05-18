@@ -1,4 +1,6 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="container d-flex align-items-center justify-content-center flex-column">
+  <div class="animate-block alert alert-secondary " @slowAnimate *ngIf="stateAnimate">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quae dicta delectus amet, officiis facilis, modi, incidunt molestias neque consequatur labore vitae ipsa quo odit ducimus laborum natus commodi quos molestiae ratione quam animi voluptatum iste odio. Voluptate, molestias dolor.
+  </div>
+  <button class="btn btn-secondary" (click)="animate()">Start animate</button>
+</div>
